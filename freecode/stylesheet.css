@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  .nav-link {
+    color: white !important;
+    margin-top: 1px;
+     
+  }
+ .para{
+     color: white;
+     font-size: 25px;
+     font-style: italic;
+     text-align: center;
+   }
+ .menu{
+  padding: 0px 10px !important;
+  margin: 0px 0 0 3px;
+  border-radius: 3px;
+  margin-top: 1px;
+  outline: none;
+
+ }
+
+  .loginbtn {
+    color:black!important;
+    outline: none;
+    border: 2px solid orange !important;
+    padding: 2px 30px !important;
+    margin: 5px 0 0 10px;
+    border-radius: none;
+    margin-top: 8px;
+    width: 100%;
+    background-color: rgb(240, 171, 42);
+  }
+  .loginbtn:hover {
+    background-color:rgb(212, 140, 5);
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(236, 144, 144, 0.144) ;
+    overflow: hidden;  
+
+    padding-left: 600px;
+
+    justify-content: space-between;
+  }
+  .description{
+    
+    letter-spacing: -0.2px;
+    line-height: 1.4;
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    offset-distance: 50px;
+    font-size: 20%;
+    gap: 25px;
+  }
+  .card{
+    display: flex;
+    color: black;
+    font-size: 40px;
+    align-items: center;
+    width: 50px;height: 50px;
+   
+    
+    margin: 15px;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    border:none;
+  }
+  .button {
+  
+   margin-left: 35%;
+   color: black;
+   
+ }
+
+ .submit-btn {
+  font-size: 30px;
+  width: 50px;
+  height:5px;
+  border: 1px solid rgb(253, 114, 64);
+  color:black;
+  background-color: orange;
+
+  border-radius: 5px;
+  padding: 2px 70px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 50px;
+}
+.image{
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+
+}
+li{
+  list-style: none;
+}
+
